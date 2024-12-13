@@ -1,0 +1,23 @@
+button{
+    background-color: lightblue;  
+      border: none;                
+      color: black;        
+      height: max-content;      
+      text-align: center;         
+      text-decoration: none;       
+      display: inline-block;      
+      font-size: 16px;   
+      padding: 6px;         
+      margin: 4px 2px;                     
+      border-radius: 5%;          
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  button:hover{
+    background-color: rgba(127, 137, 141, 0.613); 
+    transform: scale(1.05);   
+  }
+  button:active {
+    background-color: rgba(48, 59, 62, 0.8) ; /* Even darker green on click */
+    transform: scale(0.95);    /* Slightly shrink on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+  }

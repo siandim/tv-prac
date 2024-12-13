@@ -1,0 +1,68 @@
+.compassContainer {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .compass {
+    width: 100px; /* smaller size */
+    height: 100px; /* smaller size */
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .cardinals {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .cardinals span {
+    position: absolute;
+    font-size: 0.9rem; /* smaller font size */
+    font-weight: bold;
+  }
+  
+  .north {
+    top: -20px; /* adjusted position for smaller size */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .east {
+    right: -15px; /* adjusted position for smaller size */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .south {
+    bottom: -20px; /* adjusted position for smaller size */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .west {
+    left: -20px; /* adjusted position for smaller size */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .needle {
+    width: 2px;
+    height: 48px; /* smaller needle height */
+    background-color: black;
+    position: absolute;
+    top: 1%; /* adjusted for smaller compass */
+    left: 50%;
+    transform-origin: center bottom;
+    transform: rotate(0deg);
+  }
+  
+  .directionLabel {
+    margin-top: 5px;
+    font-size: 1rem; /* slightly smaller font size */
+  }
+  
